@@ -148,17 +148,6 @@ body {
 }
 
 
-/* .test{
-    display: none;
-}
-
-<span class="test">ciao</span>
-
-.collapsed .test{
-    color: red;
-    display: inline-block;
-}  */
-
 .ms_click_drop_up{
     display: none;
 }
