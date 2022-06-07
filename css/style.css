@@ -1,8 +1,8 @@
-body{
+body {
     font-family: Arial, Helvetica;
 }
 
-.jumbotron{
+.jumbotron {
     background-image: url(../img/jumbo-bg.png);
     height: 90vh;
     background-position: top center;
@@ -10,38 +10,38 @@ body{
     background-repeat: no-repeat;
 }
 
-.ms_mt{
+.ms_mt {
     margin-top: 70px;
 }
 
-.ms_round_border{
+.ms_round_border {
     border-radius: 20px;
 }
 
-.ms_game_ad_2{
+.ms_game_ad_2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.ms_entity_fix{
+.ms_entity_fix {
     vertical-align: middle;
 }
 
-.ms_bg_lightgray_fix{
+.ms_bg_lightgray_fix {
     background-color: #BEBCBB;
 }
 
-.ms_bg_darkblue-fix{
+.ms_bg_darkblue-fix {
     background-color: #161C3B;
 }
 
-.ms_bg_lightblue_fix{
+.ms_bg_lightblue_fix {
     background-color: #00439C;
 }
 
-.ms_logo_colorfix{
+.ms_logo_colorfix {
     filter: brightness(0) invert(1);
 }
 
@@ -50,103 +50,137 @@ body{
 
 /* ssct2 effects */
 /* note: use ms_rounded_border and border-primary on the classes */
-.ms_border_click.ms_bclick_on{
+.ms_border_click.ms_bclick_on {
     padding: 3px;
     border: 3px solid;
 }
 
-.ms_border_click.ms_bclick_off{
+.ms_border_click.ms_bclick_off {
     padding: 3px;
     border: 3px solid transparent;
 }
 
-.ms_hover_translate:hover{
+.ms_hover_translate:hover {
     transform: translate(0, -30px);
-    
+
 }
 
-.ms_hover_translate{
+.ms_hover_translate {
     transition: transform 300ms linear;
 }
 
 /* sct 3 */
 
-.ms_waiting_status{
+.ms_waiting_status {
     opacity: 0.6;
 }
 
-.ms_waiting_status:hover{
+.ms_waiting_status:hover {
     opacity: 1;
-} 
+}
 
 /* important note: use postition relative first on the element you want to apply the effect */
-.ms_selected_status:hover::after{
+.ms_selected_status:hover::after {
     content: '\0020';
     position: absolute;
     width: 80%;
     bottom: -5px;
     left: 50%;
-    transform: translate(-50% , +50%);
+    transform: translate(-50%, +50%);
     border-bottom: 2px solid blue;
 }
 
-.ms_waiting_status_active{
+.ms_waiting_status_active {
     opacity: 1;
 }
 
-.ms_selected_status_selected::after{
+.ms_selected_status_selected::after {
     content: '\0020';
     position: absolute;
     width: 80%;
     bottom: -5px;
     left: 50%;
-    transform: translate(-50% , +50%);
+    transform: translate(-50%, +50%);
     border-bottom: 2px solid blue;
 }
 
 /* all btn effects */
-.ms_btn_effect_black_red{
+.ms_btn_effect_black_red {
     border: 2px solid transparent;
- }
+}
 
-.ms_btn_effect_black_red:hover{
-   box-shadow:  inset 0px 0px 0px 2px black;
+.ms_btn_effect_black_red:hover {
+    box-shadow: inset 0px 0px 0px 2px black;
     border: 2px solid red;
 }
 
-.ms_btn_effect_lightgray_white{
+.ms_btn_effect_lightgray_white {
     border: 2px solid transparent;
 }
 
-.ms_btn_effect_lightgray_white:hover{
-    box-shadow:  inset 0px 0px 0px 2px lightgray;
+.ms_btn_effect_lightgray_white:hover {
+    box-shadow: inset 0px 0px 0px 2px lightgray;
     border: 2px solid white;
 }
 
-.ms_btn_effect_white_black{
+.ms_btn_effect_white_black {
     border: 2px solid transparent;
 }
 
-.ms_btn_effect_white_black:hover{
-    box-shadow:  inset 0px 0px 0px 2px white;
+.ms_btn_effect_white_black:hover {
+    box-shadow: inset 0px 0px 0px 2px white;
     border: 2px solid black;
 }
 
-.ms_btn_effect_black_white{
+.ms_btn_effect_black_white {
     border: 2px solid transparent;
 }
 
-.ms_btn_effect_black_white:hover{
-    box-shadow:  inset 0px 0px 0px 2px black;
+.ms_btn_effect_black_white:hover {
+    box-shadow: inset 0px 0px 0px 2px black;
     border: 2px solid white;
 }
 
 /* cursor pointer */
 
-.ms_pointer{
+.ms_pointer {
     cursor: pointer;
 }
 
-.ciao{
-    text-decoration: none;
+
+/* .test{
+    display: none;
 }
+
+<span class="test">ciao</span>
+
+.collapsed .test{
+    color: red;
+    display: inline-block;
+}  */
+
+.ms_click_drop_up{
+    display: none;
+}
+
+.collapsed .ms_click_drop_up{
+    display: inline;
+}
+
+.collapsed .ms_click_drop_down{
+    display: none;
+}
+
+.ms_rotate{
+    transform: rotate(180deg);
+}
+
+.ms_w_fix{
+    width: 20px;
+}
+
+.ms_click_drop_down{
+    display: inline;
+}
+
+
