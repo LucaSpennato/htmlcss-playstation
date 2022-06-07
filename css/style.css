@@ -66,5 +66,40 @@ body{
 }
 
 .ms_hover_translate{
-    transition: all 300ms linear;
+    transition: transform 300ms linear;
+}
+
+/* sct 3 */
+
+.ms_waiting_status{
+    opacity: 0.6;
+}
+
+.ms_waiting_status:hover{
+    opacity: 1;
+} 
+
+/* important note: use postition relative first on the element you want to apply the effect */
+.ms_selected_status:hover::after{
+    content: '\0020';
+    position: absolute;
+    width: 80%;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50% , +50%);
+    border-bottom: 2px solid blue;
+}
+
+.ms_waiting_status_active{
+    opacity: 1;
+}
+
+.ms_selected_status_selected::after{
+    content: '\0020';
+    position: absolute;
+    width: 80%;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50% , +50%);
+    border-bottom: 2px solid blue;
 }
