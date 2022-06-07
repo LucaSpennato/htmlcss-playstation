@@ -33,6 +33,10 @@ body{
     background-color: #161C3B;
 }
 
+.ms_bg_lightblue_fix{
+    background-color: #00439C;
+}
+
 .ms_logo_colorfix{
     filter: brightness(0) invert(1);
 }
