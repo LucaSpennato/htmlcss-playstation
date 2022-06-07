@@ -44,3 +44,27 @@ body{
 .ms_logo_colorfix{
     filter: brightness(0) invert(1);
 }
+
+
+/* effects */
+
+/* ssct2 effects */
+/* note: use ms_rounded_border and border-primary on the classes */
+.ms_border_click.ms_bclick_on{
+    padding: 3px;
+    border: 3px solid;
+}
+
+.ms_border_click.ms_bclick_off{
+    padding: 3px;
+    border: 3px solid transparent;
+}
+
+.ms_hover_translate:hover{
+    transform: translate(0, -30px);
+    
+}
+
+.ms_hover_translate{
+    transition: all 300ms linear;
+}
