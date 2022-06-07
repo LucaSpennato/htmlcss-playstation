@@ -103,3 +103,40 @@ body{
     transform: translate(-50% , +50%);
     border-bottom: 2px solid blue;
 }
+
+/* all btn effects */
+.ms_btn_effect_black_red{
+    border: 2px solid transparent;
+ }
+
+.ms_btn_effect_black_red:hover{
+   box-shadow:  inset 0px 0px 0px 2px black;
+    border: 2px solid red;
+}
+
+.ms_btn_effect_lightgray_white{
+    border: 2px solid transparent;
+}
+
+.ms_btn_effect_lightgray_white:hover{
+    box-shadow:  inset 0px 0px 0px 2px lightgray;
+    border: 2px solid white;
+}
+
+.ms_btn_effect_white_black{
+    border: 2px solid transparent;
+}
+
+.ms_btn_effect_white_black:hover{
+    box-shadow:  inset 0px 0px 0px 2px white;
+    border: 2px solid black;
+}
+
+.ms_btn_effect_black_white{
+    border: 2px solid transparent;
+}
+
+.ms_btn_effect_black_white:hover{
+    box-shadow:  inset 0px 0px 0px 2px black;
+    border: 2px solid white;
+}
