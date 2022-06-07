@@ -140,3 +140,13 @@ body{
     box-shadow:  inset 0px 0px 0px 2px black;
     border: 2px solid white;
 }
+
+/* cursor pointer */
+
+.ms_pointer{
+    cursor: pointer;
+}
+
+.ciao{
+    text-decoration: none;
+}
