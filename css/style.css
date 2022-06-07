@@ -28,3 +28,7 @@ body{
 .ms_entity_fix{
     vertical-align: middle;
 }
+
+.ms_bg_darkblue-fix{
+    background-color: #161C3B;
+}
