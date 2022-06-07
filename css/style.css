@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica;
+}
+
+.jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    height: 90vh;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ms_mt{
+    margin-top: 70px;
+}
+
+.ms_round_border{
+    border-radius: 20px;
+}
+
+.ms_game_ad_2{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ms_entity_fix{
+    vertical-align: middle;
+}
