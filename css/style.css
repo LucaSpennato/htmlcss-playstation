@@ -29,6 +29,10 @@ body{
     vertical-align: middle;
 }
 
+.ms_bg_lightgray_fix{
+    background-color: #BEBCBB;
+}
+
 .ms_bg_darkblue-fix{
     background-color: #161C3B;
 }
