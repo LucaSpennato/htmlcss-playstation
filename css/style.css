@@ -162,6 +162,6 @@ a#navbarDropdown.nav-link.dropdown-toggle.show::after{
     color: blue;
 }
 
-.ciaociao{
-    display: inline-block;
+.ms_list_style{
+    list-style-type: square;
 }

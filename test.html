@@ -13,6 +13,31 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <style>
+        .ms_click_drop_up{
+    display: none;
+}
+
+.collapsed .ms_click_drop_up{
+    display: inline;
+}
+
+.collapsed .ms_click_drop_down{
+    display: none;
+}
+
+.ms_rotate{
+    transform: rotate(180deg);
+}
+
+.ms_w_fix{
+    width: 10px;
+}
+
+.ms_click_drop_down{
+    display: inline;
+}
+    </style>
 </head>
 
 <body>
@@ -303,24 +328,50 @@
 
                     <div class="d-lg-flex col-lg-7">
 
-                        <li class="nav-item dropdown position-static ciao">
+                        <li class="nav-item dropdown position-static">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Giochi
                             </a>
                             <ul class="mt-0 dropdown-menu w-100 text-center bg-white border-0" aria-labelledby="navbarDropdown">
-                                <ul class="list-unstyled ciaociao">
-                                    <li><img src="./img/play-menu-ico.png" alt="play-menu-ico"></li>
-                                    <li>ciao</li>
-                                </ul>
 
-                                <ul class="list-unstyled ciaociao">
-                                    <li><img src="./img/play-menu-ico.png" alt="play-menu-ico"></li>
-                                    <li>ciao</li>
-                                </ul>
+                                <li class="d-inline-block">
+                                    <div class="dropdown-item p-1">
+                                        <div>
+                                            <img src="./img/play-menu-ico.png" alt="play-menu-ico">
+                                        </div>
+                                        <div>Playstation 5</div>
+                                    </div>
+                                </li>
+
+                                <li class="d-inline-block">
+                                    <div class="dropdown-item p-1">
+                                        <div>
+                                            <img src="./img/play-menu-ico.png" alt="play-menu-ico">
+                                        </div>
+                                        <div>Playstation 4</div>
+                                    </div>
+                                </li>
+
+                                <li class="d-inline-block">
+                                    <div class="dropdown-item p-1">
+                                        <div>
+                                            <img src="./img/play-menu-ico.png" alt="play-menu-ico">
+                                        </div>
+                                        <div>Playstation 3</div>
+                                    </div>
+                                </li>
+                                <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+
+                                <li>
+                                      <ul class="ms_list_style d-flex justify-content-center">
+                                        <li class="mx-3"><a href="#">Link giochi</a></li>
+                                        <li class="mx-3"><a href="#">Link giochi</a></li>
+                                        <li class="mx-3"><a href="#">Link giochi</a></li>
+                                      </ul>
+                                </li>
                             </ul>
                         </li>
     
@@ -330,12 +381,43 @@
                                 Hardware
                             </a>
                             <ul class="mt-0 dropdown-menu w-100 text-center bg-white border-0" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#"><img src="./img/" alt=""></a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li class="d-inline-block">
+                                    <div class="dropdown-item p-1">
+                                        <div>
+                                            <img src="./img/play-menu-ico.png" alt="play-menu-ico">
+                                        </div>
+                                        <div>Playstation 5</div>
+                                    </div>
+                                </li>
+
+                                <li class="d-inline-block">
+                                    <div class="dropdown-item p-1">
+                                        <div>
+                                            <img src="./img/play-menu-ico.png" alt="play-menu-ico">
+                                        </div>
+                                        <div>Playstation 4</div>
+                                    </div>
+                                </li>
+
+                                <li class="d-inline-block">
+                                    <div class="dropdown-item p-1">
+                                        <div>
+                                            <img src="./img/play-menu-ico.png" alt="play-menu-ico">
+                                        </div>
+                                        <div>Playstation 3</div>
+                                    </div>
+                                </li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+
+                                <li>
+                                      <ul class="ms_list_style d-flex justify-content-center">
+                                        <li class="mx-3"><a href="#">Link Hardware</a></li>
+                                        <li class="mx-3"><a href="#">Link Hardware</a></li>
+                                        <li class="mx-3"><a href="#">Link Hardware</a></li>
+                                      </ul>
+                                </li>
                             </ul>
                         </li>
     
@@ -345,12 +427,43 @@
                                 Servizi
                             </a>
                             <ul class="mt-0 dropdown-menu w-100 text-center bg-white border-0" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">ciao3</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li class="d-inline-block">
+                                    <div class="dropdown-item p-1">
+                                        <div>
+                                            <img src="./img/play-menu-ico.png" alt="play-menu-ico">
+                                        </div>
+                                        <div>Playstation 5</div>
+                                    </div>
+                                </li>
+
+                                <li class="d-inline-block">
+                                    <div class="dropdown-item p-1">
+                                        <div>
+                                            <img src="./img/play-menu-ico.png" alt="play-menu-ico">
+                                        </div>
+                                        <div>Playstation 4</div>
+                                    </div>
+                                </li>
+
+                                <li class="d-inline-block">
+                                    <div class="dropdown-item p-1">
+                                        <div>
+                                            <img src="./img/play-menu-ico.png" alt="play-menu-ico">
+                                        </div>
+                                        <div>Playstation 3</div>
+                                    </div>
+                                </li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+
+                                <li>
+                                      <ul class="ms_list_style d-flex justify-content-center">
+                                        <li class="mx-3"><a href="#">Link Servizi</a></li>
+                                        <li class="mx-3"><a href="#">Link Servizi</a></li>
+                                        <li class="mx-3"><a href="#">Link Servizi</a></li>
+                                      </ul>
+                                </li>
                             </ul>
                         </li>
     
@@ -360,12 +473,43 @@
                                 Novità
                             </a>
                             <ul class="mt-0 dropdown-menu w-100 text-center bg-white border-0" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">ciao4</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li class="d-inline-block">
+                                    <div class="dropdown-item p-1">
+                                        <div>
+                                            <img src="./img/play-menu-ico.png" alt="play-menu-ico">
+                                        </div>
+                                        <div>Playstation 5</div>
+                                    </div>
+                                </li>
+
+                                <li class="d-inline-block">
+                                    <div class="dropdown-item p-1">
+                                        <div>
+                                            <img src="./img/play-menu-ico.png" alt="play-menu-ico">
+                                        </div>
+                                        <div>Playstation 4</div>
+                                    </div>
+                                </li>
+
+                                <li class="d-inline-block">
+                                    <div class="dropdown-item p-1">
+                                        <div>
+                                            <img src="./img/play-menu-ico.png" alt="play-menu-ico">
+                                        </div>
+                                        <div>Playstation 3</div>
+                                    </div>
+                                </li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+
+                                <li>
+                                      <ul class="ms_list_style d-flex justify-content-center">
+                                        <li class="mx-3"><a href="#">Link Novità</a></li>
+                                        <li class="mx-3"><a href="#">Link Novità</a></li>
+                                        <li class="mx-3"><a href="#">Link Novità</a></li>
+                                      </ul>
+                                </li>
                             </ul>
                         </li>
     
@@ -375,12 +519,43 @@
                                 Fai acquisti
                             </a>
                             <ul class="mt-0 dropdown-menu w-100 text-center bg-white border-0" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">ciao5</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li class="d-inline-block">
+                                    <div class="dropdown-item p-1">
+                                        <div>
+                                            <img src="./img/play-menu-ico.png" alt="play-menu-ico">
+                                        </div>
+                                        <div>Playstation 5</div>
+                                    </div>
+                                </li>
+
+                                <li class="d-inline-block">
+                                    <div class="dropdown-item p-1">
+                                        <div>
+                                            <img src="./img/play-menu-ico.png" alt="play-menu-ico">
+                                        </div>
+                                        <div>Playstation 4</div>
+                                    </div>
+                                </li>
+
+                                <li class="d-inline-block">
+                                    <div class="dropdown-item p-1">
+                                        <div>
+                                            <img src="./img/play-menu-ico.png" alt="play-menu-ico">
+                                        </div>
+                                        <div>Playstation 3</div>
+                                    </div>
+                                </li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+
+                                <li>
+                                      <ul class="ms_list_style d-flex justify-content-center">
+                                        <li class="mx-3"><a href="#">Link Fai acquisti</a></li>
+                                        <li class="mx-3"><a href="#">Link Fai acquisti</a></li>
+                                        <li class="mx-3"><a href="#">Link Fai acquisti</a></li>
+                                      </ul>
+                                </li>
                             </ul>
                         </li>
     
@@ -390,25 +565,82 @@
                                 Supporto
                             </a>
                             <ul class="mt-0 dropdown-menu w-100 text-center bg-white border-0" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">ciao6</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li class="d-inline-block">
+                                    <div class="dropdown-item p-1">
+                                        <div>
+                                            <img src="./img/play-menu-ico.png" alt="play-menu-ico">
+                                        </div>
+                                        <div>Playstation 5</div>
+                                    </div>
+                                </li>
+
+                                <li class="d-inline-block">
+                                    <div class="dropdown-item p-1">
+                                        <div>
+                                            <img src="./img/play-menu-ico.png" alt="play-menu-ico">
+                                        </div>
+                                        <div>Playstation 4</div>
+                                    </div>
+                                </li>
+
+                                <li class="d-inline-block">
+                                    <div class="dropdown-item p-1">
+                                        <div>
+                                            <img src="./img/play-menu-ico.png" alt="play-menu-ico">
+                                        </div>
+                                        <div>Playstation 3</div>
+                                    </div>
+                                </li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+
+                                <li>
+                                      <ul class="ms_list_style d-flex justify-content-center">
+                                        <li class="mx-3"><a href="#">Link Supporto</a></li>
+                                        <li class="mx-3"><a href="#">Link Supporto</a></li>
+                                        <li class="mx-3"><a href="#">Link Supporto</a></li>
+                                      </ul>
+                                </li>
                             </ul>
                         </li>
                     </div>
                         
-                        <div class="d-lg-flex col-lg-5 justify-content-lg-end">
-                            <li class="nav-item mx-3 dropdown position-static">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center col-lg-5 justify-content-lg-end">
+                            <li class="nav-item mx-3 dropdown position-static text-center">
+
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     My Playstation
-                                </a>
+                                    </a>
+
                                 <ul class="mt-0 dropdown-menu w-100 text-center bg-white border-0" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">ciao7</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li class="d-inline-block">
+                                        <div class="dropdown-item p-1">
+                                            <div>
+                                                <img src="./img/play-menu-ico.png" alt="play-menu-ico">
+                                            </div>
+                                            <div>Playstation 5</div>
+                                        </div>
+                                    </li>
+    
+                                    <li class="d-inline-block">
+                                        <div class="dropdown-item p-1">
+                                            <div>
+                                                <img src="./img/play-menu-ico.png" alt="play-menu-ico">
+                                            </div>
+                                            <div>Playstation 4</div>
+                                        </div>
+                                    </li>
+    
+                                    <li class="d-inline-block">
+                                        <div class="dropdown-item p-1">
+                                            <div>
+                                                <img src="./img/play-menu-ico.png" alt="play-menu-ico">
+                                            </div>
+                                            <div>Playstation 3</div>
+                                        </div>
+                                    </li>
                                 </ul>
                             </li>
 
@@ -421,19 +653,8 @@
                             </li>
 
                         </div>
-
                     </ul>
-
-                    
-
-
-                     
-                   
-
-
-
             </div>
-
         </div>
     </nav>
 
@@ -607,7 +828,23 @@
     </div>
 
 </div>
-</div> -->
+</div> 
+
+
+
+ <ul class="list-unstyled d-inline-block">
+                                    <li><img src="./img/play-menu-ico.png" alt="play-menu-ico"></li>
+                                    <li>Playstation 4</li>
+                                </ul>
+
+                                <ul class="list-unstyled d-inline-block">
+                                    <li><img src="./img/play-menu-ico.png" alt="play-menu-ico"></li>
+                                    <li>Playstation 3</li>
+                                </ul>
+
+
+
+-->
 <!--------------------------------------------------- 
     ALTRA SOLUZIONE VALIDA MA SI ALLARGA TROPPO---------------------------
     -----------------------------------------------
