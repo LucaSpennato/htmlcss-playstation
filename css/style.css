@@ -165,3 +165,17 @@ a#navbarDropdown.nav-link.dropdown-toggle.show::after{
 .ms_list_style{
     list-style-type: square;
 }
+
+.ms_shadow_hover:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 5px rgba(189, 195, 199, 0.5);
+}
+
+.ms_linkstyle{
+    text-decoration: none;
+    color: black;
+}
+
+.ms_linkstyle:hover{
+    color: blue;
+}
