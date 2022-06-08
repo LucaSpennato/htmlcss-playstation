@@ -147,27 +147,21 @@ body {
     cursor: pointer;
 }
 
-
-.ms_click_drop_up{
-    display: none;
+a#navbarDropdown.nav-link.dropdown-toggle::after{
+    display: inline-block;
+    font-size: 0.7em;
+    font-family: "Font Awesome 6 Free";
+    content: '\f078';
+    font-weight: 900;
+    border: 0;
+    vertical-align: middle;
 }
 
-.collapsed .ms_click_drop_up{
-    display: inline;
+a#navbarDropdown.nav-link.dropdown-toggle.show::after{
+    content: '\f077';
+    color: blue;
 }
 
-.collapsed .ms_click_drop_down{
-    display: none;
-}
-
-.ms_rotate{
-    transform: rotate(180deg);
-}
-
-.ms_w_fix{
-    width: 10px;
-}
-
-.ms_click_drop_down{
-    display: inline;
+.ciaociao{
+    display: inline-block;
 }
